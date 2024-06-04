@@ -2,10 +2,10 @@ from django.shortcuts import render
 
 
 def index(request):
-    
+
     dados = {
     1: {"nome": "Nebulosa de Carina",
-        "legenda": "webbrelecope.org / NASA / James Weeb"},
+        "legenda": "webbtelecope.org / NASA / James Weeb"},
     2: {"nome": "Galáxia NGC 1079", 
         "legenda": "nasa.org / NASA / Hubble"}
     }
